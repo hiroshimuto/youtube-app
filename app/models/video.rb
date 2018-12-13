@@ -1,7 +1,7 @@
 class Video < ApplicationRecord
   def self.video_urls
     #スカパー海外/スカサカ/チャンピオンズリーグ/
-    urls = ["https://www.youtube.com/channel/UCJe-YHWE_u6LL3DHyv8kXeQ/videos","https://www.youtube.com/channel/UCuC6tBMK3baNzW4PjmY9s8g/videos","https://www.youtube.com/channel/UC_5RtGg55Ja6a_yFHrqd0qA/videos"]
+    urls = ["https://www.youtube.com/channel/UCjjOilBs-JK_QfrXfol08DA/videos"]
 
     urls.each do |url|
       get_video(url)
